@@ -41,6 +41,16 @@ curl "http://localhost:8083/api/chamados?status=em_andamento&priority=alta" ^
   -H "Authorization: Bearer SEU_TOKEN"
 ```
 
+## Stack
+
+| Camada | Tecnologia |
+| --- | --- |
+| Backend | PHP 8.2+ + CodeIgniter 4 |
+| Banco | MySQL 8 |
+| API | REST + JSON |
+| Testes | PHPUnit |
+| Infra local | Docker Compose |
+
 ## Como rodar
 
 MySQL na porta **3309**.
